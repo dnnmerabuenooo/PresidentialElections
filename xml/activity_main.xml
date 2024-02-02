@@ -8,15 +8,15 @@
     android:orientation="vertical"
     android:background="#FFBD0606">
 
-    <View
-        android:layout_width="match_parent"
-        android:layout_height="50dp"
-        android:background="#0C3587"/>
-
     <ImageView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:src="@drawable/ph"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="#000000"/>
 
     <TextView
         android:layout_width="wrap_content"
@@ -77,7 +77,7 @@
     <View
         android:layout_width="match_parent"
         android:layout_height="50dp"
-        android:layout_marginTop="682dp"
-        android:background="#0C3587"/>
+        android:layout_marginTop="782dp"
+        android:background="#000000"/>
 
 </RelativeLayout>
