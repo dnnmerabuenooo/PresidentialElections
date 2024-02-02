@@ -6,26 +6,26 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:background="#BD0606"
-    tools:context=".Page1">
-
-    <View
-        android:layout_width="match_parent"
-        android:layout_height="50dp"
-        android:background="@android:color/black"/>
+    tools:context=".VotingActivity">
 
     <ImageView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:src="@drawable/ph"/>
 
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@android:color/black"/>
+
     <TextView
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="5dp"
         android:fontFamily="times"
         android:text=""
         android:textColor="#FFFFFF"
-        android:layout_marginLeft="100dp"
+        android:textAlignment="center"
         android:textSize="30dp"
         android:textStyle="bold"
         android:id="@+id/voter"/>
@@ -76,13 +76,25 @@
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginLeft="55dp"
         android:layout_marginTop="470dp"
+        android:layout_marginRight="55dp"
+        android:backgroundTint="#0C3587"
+        android:onClick="proceed"
+        android:text="Submit"
+        android:textColor="@color/white"
+        android:textSize="20dp" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
         android:layout_marginLeft="55dp"
         android:layout_marginRight="55dp"
-        android:layout_gravity="center"
-        android:text="Submit"
+        android:layout_marginTop="520dp"
+        android:text="Back"
         android:textSize="20dp"
-        android:onClick="Proceed"
+        android:onClick="goToHomePage"
         android:textColor="@color/white"
         android:backgroundTint="#0C3587"
         />
@@ -90,7 +102,7 @@
     <View
         android:layout_width="match_parent"
         android:layout_height="50dp"
-        android:layout_marginTop="682dp"
+        android:layout_marginTop="782dp"
         android:background="@android:color/black"/>
 
 </RelativeLayout>
